@@ -22,5 +22,16 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="35dp" />
+
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
